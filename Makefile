@@ -11,7 +11,7 @@ debug: main.c
 	$(CC) $(CFLAGS) -pthread main.c -g
 	$(DG) ./a.out
 
-.PHONY: clean
+.PHONY: clean debug okc all
 
 clean:
 	rm -f okc.out a.out
