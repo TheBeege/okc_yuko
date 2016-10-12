@@ -14,4 +14,4 @@ debug: main.c
 .PHONY: clean
 
 clean:
-	rm okc.out a.out
+	rm -f okc.out a.out
